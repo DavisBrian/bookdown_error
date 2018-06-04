@@ -1,0 +1,16 @@
+book_filename: "bookdown_plot_error"
+new_session: yes
+rmd_files: [
+  "index.Rmd",
+  "plot.Rmd"
+  ]
+  
+output_dir: docs
+edit: https://github.com/DavisBrian/rclassnotes/edit/master/%s
+language:
+  label:
+    fig: "FIGURE "
+    tab: "TABLE "
+delete_merged_file: true
+
+before_chapter_script: "_common.R"
